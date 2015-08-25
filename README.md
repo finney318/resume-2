@@ -12,7 +12,7 @@ Resume个人简历（纯手工打造）
 日后再作更新
 
 #图片展示
-![PC端](http://https://github.com/MrZhaoBen/resume/tree/master/img1.PNG)  
-![PC端](http://https://github.com/MrZhaoBen/resume/tree/master/img2.PNG)  
-![移动端](http://https://github.com/MrZhaoBen/resume/tree/master/img3.PNG)  
-![移动端](http://https://github.com/MrZhaoBen/resume/tree/master/img4.PNG)
+![PC端](https://github.com/MrZhaoBen/resume/blob/master/images-folder/img1.PNG)  
+![PC端](https://github.com/MrZhaoBen/resume/blob/master/images-folder/img2.PNG)  
+![移动端](https://github.com/MrZhaoBen/resume/blob/master/images-folder/img3.PNG)  
+![移动端](https://github.com/MrZhaoBen/resume/blob/master/images-folder/img4.PNG)
