@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+/*---reset---*/
+body,div,ul,li,a,h1,h2,h3,p,img{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+.pos_relative{ position:relative;}
+.pos_absolute{ position:absolute;}
+.float_rt{ float:right;}
+.float_lt{ float:left;}
+/*---//End reset---*/
+
+/*---whole frame---*/
+body{
+	background:#FAF9DE;
+	height:100%;
+	font-family:'Courier New','Microsoft YaHei';
+	font-size:1.2em;
+	color:#333;
+}
+p{
+	color:#999;
+	font-weight:500;
+	font-size:1.2em;	
+}
+h2{
+	font-size:3.3em;	
+	text-shadow:5px 5px 3px #999;
+}
+a{
+	color:#8080FF;
+	font-weight:500;
+	font-size:1em;
+}
+.section{
+	width:100%;
+	height:40em;
+	background:#FAF9DE;
+}
+.wrap{
+	width:100%;
+	height:40em;
+	position:relative;
+}
+.nav{
+	margin-top:-2.8em;
+	width:100%;
+	background:rgba(0,0,0,0.3);
+	height:2.8em;
+	position:fixed;
+	z-index:100;
+}
+.welcome{
+	margin-top:2.8em;
+	background:#FAF9DE;
+}
+/*---//End whole frame---*/
+
+/*---nav---*/
+.nav_resume{
+	float:right;
+	width:60%;
+}
+.nav_resume li{
+	display:inline-block;
+	width:14%;
+	height:2.5em;
+	padding-top:0.3em;
+	position:relative;
+	float:left;
+}
+.nav_resume li:nth-of-type(1){
+	position:relative;
+	left:-50%;	
+}
+.nav_resume a{
+	font-size:0.7em;
+	font-weight:bold;
+	color:#333;
+}
+.nav_resume span{
+	font-size:0.8em;
+	font-weight:500;
+	position:absolute;	
+	top:2em;
+	left:0;
+}
+.nav_resume li:hover a{
+	color:#ccc;	
+}
+/*---//End nav---*/
+
+/*---welcome---*/
+.photo_me{
+	height:10em;
+	width:10em;
+	background:url(../img/photo_home.jpg) no-repeat;
+	background-size:cover;
+	left:42%;
+	top:4em;
+	border-radius:5em;
+	box-shadow:0 0 1em 0.2em #14171b;
+}
+.welcome h2{
+	left:42%;
+	top:4.5em;
+}
+.welcome h3{
+	left:43%;
+	top:13.5em;
+	font-size:1.8em;
+	color:#333;
+}
+.welcome p{
+	color:#999;
+	font-weight:500;
+	font-size:1.2em;
+	text-shadow:3px 3px 3px #999;
+}
+.welcome a{
+	left:42%;
+	top:27em;
+}
+.info1{
+	left:30%;
+	top:16.5em;	
+}
+.info2{
+	left:40%;
+	top:18em;	
+}
+/*---//End welcome---*/
+
+/*---project---*/
+.title{
+	width:100%;
+	text-align:center;
+	margin-top:4em;	
+	position:absolute;
+}
+.demo{
+	width:15%;
+	position:absolute;	
+}
+.demo p{	
+}
+.demo1{
+	left:40%;
+	top:1.7em;	
+}
+.demo2{
+	left:20%;
+	top:7em;	
+}
+.demo3{
+	left:20%;
+	top:18em;	
+}
+.demo4{
+	left:40%;
+	top:22em;	
+}
+.demo5{
+	left:60%;
+	top:6em;	
+}
+.demo6{
+	left:60%;
+	top:18em;	
+}
+.wrap_img{
+	width:70%;
+	background:rgba(0,0,0,0.3);
+	border-radius:50%;
+	margin:0 auto;
+	transition:.4s;
+}
+.wrap_img:hover{
+	background:rgba(0,0,0,0.6);	
+	transform:rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+.wrap_img img{
+	width:90%;	
+}
+.deliver{
+	left:40%;
+	top:19em;	
+}
+/*---//End project---*/
+
+/*---technology---*/
+.tech_css{
+	top:8em;
+	left:34%;	
+}
+.tech_html{
+	top:13em;
+	left:12%;	
+}
+.tech_js{
+	top:21em;
+	left:40%;	
+}
+.tech_ps{
+	top:10em;
+	left:63%;	
+}
+.technology span, .technology strong{
+	display:inline-block;
+	background:rgba(0,0,0,0.3);
+	padding:0.2em;
+	margin:0.3em;
+	border-radius:0.3em;
+	color:#333;	
+}
+.technology strong{
+	background:	rgba(0,0,0,0.2); 
+	font-weight:500;
+}
+/*---//End technology---*/
+
+/*---grow---*/
+.grow .title{
+	margin-top:1em;
+}
+.grow_img{
+	width:40%;
+	border-radius:50%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.grow_img img{
+	width:100%;	
+}
+.grow1, .grow2, .grow3{
+	width:30%;
+}
+.grow1{
+	left:3%;
+	top:10em;		
+}
+.grow2{
+	left:35%;
+	top:10em;		
+}
+.grow3{
+	left:65%;
+	top:10em;		
+}
+/*---//End grow---*/
+
+/*---target---*/
+.target .title{
+	margin-top:1.5em;	
+}
+.target p{
+	left:30%;
+	top:12em;	
+}
+.target span{
+	font-size:1.8em;
+	font-weight:bold;
+	left:45%;
+	top:6em;	
+}
+.target a{
+	left:45%;
+	top:20em;	
+}
+/*---//End target---*/
+
+/*---more---*/
+.more .title{
+	margin-top:2em;	
+}
+.more_txt{
+	left:40%;
+	top:13em;	
+}
+.more a{
+	display:block;
+	margin-top:0.2em;
+	text-align:center;	
+}
+.more span{
+	font-size:1.4em;
+	font-weight:bold;
+	color:#333;
+}
+/*---//End more---*/
+
+/*---responsive-design---*/
+@media only screen and (max-width:768px) {
+	p{
+		font-size:0.7em;	
+	}
+	.btn{
+		width:1.8rem;
+		height:1.8rem;
+		margin:0.5rem 0 0 0.5rem;
+		opacity:0.8;
+		background:url(../img/btn.gif) no-repeat;
+		background-size:cover;	
+	}
+	.nav_resume{
+		float:none;
+		width:24%;
+		position:absolute;
+		top:2.9em;
+		left:-24%;
+	}
+	.nav_resume li{
+		display:block;
+		width:100%;
+		height:2em;
+		padding-top:0.3em;
+		position:relative;
+		float:none;
+		background:rgba(0,0,0,0.3);
+		border-bottom:1px solid #fff;
+	}
+	.nav_resume li:nth-of-type(1){
+		left:0%;	
+	}
+	.nav_resume a{
+		font-size:0.8em;
+		font-weight:bold;
+		color:#333;
+	}
+	.nav_resume span{
+		font-size:0.8em;
+		font-weight:500;
+		position:absolute;	
+		top:2em;
+		left:0;
+	}
+	
+	/*---welcome---*/
+	.photo_me{
+		height:6.4em;
+		width:6.4em;
+		left:33%;
+	}
+	.welcome h2{
+		left:36%;
+		top:5.5em;
+		font-size:2em;
+	}
+	.welcome h3{
+		left:35%;
+		top:15em;
+		font-size:1.2em;
+	}
+	.welcome p{
+		font-size:0.8em;
+	}
+	.welcome a{
+		left:30%;
+		top:26em;
+		font-size:0.8em;
+	}
+	.info1{
+		left:12%;
+		top:18em;	
+	}
+	.info2{
+		left:18%;
+		top:20em;	
+	}
+/*---//End welcome---*/
+
+/*---project---*/
+.title{
+	font-size:1.5em;
+	margin-top:8em;	
+}
+.demo{
+	width:20%;
+}
+.demo p{
+	font-size:0.6em;	
+}
+.demo1{
+	left:40%;
+	top:4em;	
+}
+.demo2{
+	left:7%;
+	top:7em;	
+}
+.demo3{
+	left:7%;
+	top:14em;	
+}
+.demo4{
+	left:40%;
+	top:18em;	
+}
+.demo5{
+	left:70%;
+	top:7em;	
+}
+.demo6{
+	left:70%;
+	top:14em;	
+}
+.deliver{
+	font-size:0.5em;
+	left:32%;
+	top:2em;	
+}
+/*---//End project---*/
+
+/*---technology---*/
+.tech_css{
+	top:8em;
+	left:18%;	
+}
+.tech_html{
+	top:15em;
+	left:1%;	
+}
+.tech_js{
+	top:18em;
+	left:30%;	
+}
+.tech_ps{
+	top:10em;
+	left:58%;	
+}
+.technology span, .technology strong{
+	font-size:0.6em;
+}
+/*---//End technology---*/
+
+/*---grow---*/
+.grow .title{
+	margin-top:3em;
+}
+.grow_img{
+	width:60%;
+}
+.grow1{
+	left:3%;
+	top:10em;		
+}
+.grow2{
+	left:35%;
+	top:10em;		
+}
+.grow3{
+	left:67%;
+	top:10em;		
+}
+/*---//End grow---*/
+
+/*---target---*/
+.target .title{
+	margin-top:3em;	
+}
+.target p{
+	left:10%;
+	top:15em;	
+}
+.target span{
+	font-size:1em;
+	font-weight:bold;
+	left:40%;
+	top:8em;	
+}
+.target a{
+	left:32%;
+	top:13em;	
+}
+/*---//End target---*/
+
+/*---more---*/
+.more .title{
+	margin-top:6em;	
+}
+.more_txt{
+	left:15%;
+	top:12em;	
+}
+.more span{
+	font-size:1em;
+}
+/*---//End more---*/
+}
+/*---//Endresponsive-design---*/
