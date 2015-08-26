@@ -47,6 +47,7 @@ a{
 	background:#fff;
 	height:2.8em;
 	position:fixed;
+	opacity:0;
 	z-index:100;
 }
 .welcome{
@@ -67,25 +68,28 @@ a{
 	padding-top:0.3em;
 	position:relative;
 	float:left;
+	text-align:center;
 }
 .nav_resume li:nth-of-type(1){
 	position:relative;
 	left:-50%;	
 }
 .nav_resume a{
-	font-size:0.7em;
+	display:block;
+	font-size:0.8em;
 	font-weight:bold;
 	color:#09C;
+	text-shadow:0 1px #09c, 0 2px #09c;
 }
 .nav_resume span{
+	display:block;
 	font-size:0.8em;
-	font-weight:500;
-	position:absolute;	
-	top:2em;
-	left:0;
 }
 .nav_resume li:hover a{
-	color:#00F;	
+	color:#fff;	
+}
+.nav_resume li:hover{
+	background:#09c;	
 }
 /*---//End nav---*/
 
@@ -121,6 +125,21 @@ a{
 .info2{
 	left:40%;
 	top:19.5em;	
+}
+.btn_next{
+	width:5em;
+	height:5em;
+	background:url(../img/btn_next.png) no-repeat;
+	background-size:cover;
+	left:80%;
+	top:24em;
+	animation:4s infinite btnChange;
+	cursor:pointer;
+	transition:0.2s;
+}
+.btn_next:hover{
+	transform:translateY(0.5em);
+	-webkit-transform:translateY(0.5em);	
 }
 /*---//End welcome---*/
 
@@ -280,6 +299,17 @@ a{
 	color:#fff;
 }
 /*---//End more---*/
+
+/*---animate---*/
+@keyframes btnChange{
+	50%{
+		opacity:0.2;	
+	}
+	100%{
+		opacity:1;	
+	}
+}
+/*---//End animate---*/
 
 /*---responsive-design---*/
 @media only screen and (max-width:768px) {
