@@ -12,30 +12,29 @@ a{ text-decoration:none;}
 
 /*---whole frame---*/
 body{
-	background:#FAF9DE;
+	background:#09C;
 	height:100%;
 	font-family:'Courier New','Microsoft YaHei';
 	font-size:1.2em;
-	color:#333;
+	color:#fff;
 }
 p{
-	color:#999;
-	font-weight:500;
-	font-size:1.2em;	
+	color:#dfdfdf;
+	font-size:1.1em;	
 }
 h2{
 	font-size:3.3em;	
-	text-shadow:5px 5px 3px #999;
+	text-shadow:1px 3px #09C,2px 3px #fff;
 }
 a{
-	color:#8080FF;
-	font-weight:500;
+	color:#00F;
+	font-weight:600;
 	font-size:1em;
 }
 .section{
 	width:100%;
 	height:40em;
-	background:#FAF9DE;
+	background:#09C;
 }
 .wrap{
 	width:100%;
@@ -45,14 +44,14 @@ a{
 .nav{
 	margin-top:-2.8em;
 	width:100%;
-	background:rgba(0,0,0,0.3);
+	background:#fff;
 	height:2.8em;
 	position:fixed;
 	z-index:100;
 }
 .welcome{
 	margin-top:2.8em;
-	background:#FAF9DE;
+	background:#09C;
 }
 /*---//End whole frame---*/
 
@@ -76,7 +75,7 @@ a{
 .nav_resume a{
 	font-size:0.7em;
 	font-weight:bold;
-	color:#333;
+	color:#09C;
 }
 .nav_resume span{
 	font-size:0.8em;
@@ -86,7 +85,7 @@ a{
 	left:0;
 }
 .nav_resume li:hover a{
-	color:#ccc;	
+	color:#00F;	
 }
 /*---//End nav---*/
 
@@ -99,23 +98,17 @@ a{
 	left:42%;
 	top:4em;
 	border-radius:5em;
-	box-shadow:0 0 1em 0.2em #14171b;
+	box-shadow:0 0 1em 0.2em #fff;
 }
 .welcome h2{
 	left:42%;
 	top:4.5em;
 }
 .welcome h3{
-	left:43%;
-	top:13.5em;
-	font-size:1.8em;
-	color:#333;
-}
-.welcome p{
-	color:#999;
-	font-weight:500;
-	font-size:1.2em;
-	text-shadow:3px 3px 3px #999;
+	left:45%;
+	top:16em;
+	font-size:1.5em;
+	color:#fff;
 }
 .welcome a{
 	left:42%;
@@ -123,11 +116,11 @@ a{
 }
 .info1{
 	left:30%;
-	top:16.5em;	
+	top:18em;	
 }
 .info2{
 	left:40%;
-	top:18em;	
+	top:19.5em;	
 }
 /*---//End welcome---*/
 
@@ -142,26 +135,24 @@ a{
 	width:15%;
 	position:absolute;	
 }
-.demo p{	
-}
 .demo1{
-	left:40%;
+	left:43%;
 	top:1.7em;	
 }
 .demo2{
-	left:20%;
+	left:24%;
 	top:7em;	
 }
 .demo3{
-	left:20%;
+	left:25%;
 	top:18em;	
 }
 .demo4{
-	left:40%;
+	left:43%;
 	top:22em;	
 }
 .demo5{
-	left:60%;
+	left:62%;
 	top:6em;	
 }
 .demo6{
@@ -170,21 +161,21 @@ a{
 }
 .wrap_img{
 	width:70%;
-	background:rgba(0,0,0,0.3);
+	background:#fff;
 	border-radius:50%;
 	margin:0 auto;
 	transition:.4s;
 }
 .wrap_img:hover{
-	background:rgba(0,0,0,0.6);	
+	background:#dfdfdf;	
 	transform:rotate(360deg);
 	-webkit-transform: rotate(360deg);
 }
 .wrap_img img{
-	width:90%;	
+	width:100%;	
 }
 .deliver{
-	left:40%;
+	left:42%;
 	top:19em;	
 }
 /*---//End project---*/
@@ -208,14 +199,14 @@ a{
 }
 .technology span, .technology strong{
 	display:inline-block;
-	background:rgba(0,0,0,0.3);
+	background:#fff;
 	padding:0.2em;
 	margin:0.3em;
 	border-radius:0.3em;
-	color:#333;	
+	color:#09C;	
 }
 .technology strong{
-	background:	rgba(0,0,0,0.2); 
+	background:#dfdfdf; 
 	font-weight:500;
 }
 /*---//End technology---*/
@@ -245,7 +236,7 @@ a{
 	top:10em;		
 }
 .grow3{
-	left:65%;
+	left:68%;
 	top:10em;		
 }
 /*---//End grow---*/
@@ -255,8 +246,8 @@ a{
 	margin-top:1.5em;	
 }
 .target p{
-	left:30%;
-	top:12em;	
+	left:34%;
+	top:13em;	
 }
 .target span{
 	font-size:1.8em;
@@ -286,7 +277,7 @@ a{
 .more span{
 	font-size:1.4em;
 	font-weight:bold;
-	color:#333;
+	color:#fff;
 }
 /*---//End more---*/
 
@@ -296,11 +287,10 @@ a{
 		font-size:0.7em;	
 	}
 	.btn{
-		width:1.8rem;
-		height:1.8rem;
+		width:2rem;
+		height:2rem;
 		margin:0.5rem 0 0 0.5rem;
-		opacity:0.8;
-		background:url(../img/btn.gif) no-repeat;
+		background:url(../img/btn.png) no-repeat;
 		background-size:cover;	
 	}
 	.nav_resume{
@@ -317,8 +307,8 @@ a{
 		padding-top:0.3em;
 		position:relative;
 		float:none;
-		background:rgba(0,0,0,0.3);
-		border-bottom:1px solid #fff;
+		background:#fff;
+		border-bottom:1px solid #09C;
 	}
 	.nav_resume li:nth-of-type(1){
 		left:0%;	
@@ -326,7 +316,7 @@ a{
 	.nav_resume a{
 		font-size:0.8em;
 		font-weight:bold;
-		color:#333;
+		color:#09C;
 	}
 	.nav_resume span{
 		font-size:0.8em;
